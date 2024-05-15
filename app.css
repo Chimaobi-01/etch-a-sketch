@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    min-height: 100vh;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+
+    gap: 4px;
+   
+}
+
+.box {
+    display: flex;
+    gap: 4px;
+    flex: auto;
+}
+.box > * {
+    flex: auto;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+.blue {
+    background: blue;
+}
+.white {
+    background: white;
+}
+
+button {
+    display: block;
+    padding: 8px;
+    margin-inline: auto;
+    margin-top: 16px;
+    cursor: pointer;
+}
